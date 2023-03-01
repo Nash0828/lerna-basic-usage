@@ -1,3 +1,3 @@
 export default function() {
-  return 'Hello from module A'
+  return 'Hello from module A!'
 }
