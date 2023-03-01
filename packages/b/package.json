@@ -1,0 +1,23 @@
+{
+  "name": "@lerna-basic-usage/b",
+  "version": "0.0.0",
+  "description": "package b",
+  "author": "liningxu",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/b.mjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/b.test.js"
+  },
+  "type": "module"
+}
