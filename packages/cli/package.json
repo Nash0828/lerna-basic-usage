@@ -16,7 +16,8 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "node ./__tests__/cli.test.js"
@@ -24,5 +25,6 @@
   "dependencies": {
     "@lerna-basic-usage/a": "^0.0.3",
     "@lerna-basic-usage/b": "^0.0.3"
-  }
+  },
+  "gitHead": "060da9f704f92cd4ec657f21829e27233e43b537"
 }
