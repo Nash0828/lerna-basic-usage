@@ -1,6 +1,6 @@
 {
   "name": "@lerna-basic-usage/cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "package cli",
   "author": "liningxu",
   "homepage": "",
@@ -22,7 +22,7 @@
     "test": "node ./__tests__/cli.test.js"
   },
   "dependencies": {
-    "@lerna-basic-usage/a": "^0.0.0",
-    "@lerna-basic-usage/b": "^0.0.0"
+    "@lerna-basic-usage/a": "^0.0.1",
+    "@lerna-basic-usage/b": "^0.0.1"
   }
 }
